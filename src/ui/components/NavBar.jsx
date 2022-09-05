@@ -32,7 +32,7 @@ export const Navbar = () => {
                     </Link>
 
                     <NavLink 
-                        className={({isActive}) => `bg-red-500 rounded-md p-0.5 hover:-translate-y-1 ${ isActive ? 'hover:bg-red-600  active:bg-red-700 focus:outline-none focus:ring focus:ring-red-300' : '' }`} 
+                        className={({isActive}) => `text-center bg-red-500 rounded-md p-0.5 hover:-translate-y-1 ${ isActive ? 'hover:bg-red-600  active:bg-red-700 focus:outline-none focus:ring focus:ring-red-300' : '' }`} 
                         to="/marvel"
                     >
                         MARVEL
